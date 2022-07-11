@@ -1,0 +1,66 @@
+Script started on Mon 11 Jul 2022 09:38:15 PM CST
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test/try[?1034h(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ try]$ cd ../
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ git_test]$ ls -lrt
+total 104312
+-rw-r--r-- 1 root  root  106801613 May  2 17:28 [0m[01;31mTypora-linux-x64.tar.gz[0m
+drwxrwxr-x 3 zehu1 zehu1      4096 May  2 19:08 [01;34msheepvardb[0m
+drwxrwxr-x 3 zehu1 zehu1      4096 Jul 11 16:55 [01;34mmaize-snp[0m
+drwxrwxr-x 6 zehu1 zehu1      4096 Jul 11 21:38 [01;34mtry[0m
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ git_test]$ echo ""d"d"d"[C CONTRIBUTING.md
+ddd CONTRIBUTING.md
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ git_test]$ echo "ddd" CONTRIBUTING.md>CONTRIBUTING.md
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ git_test]$ echo "ddd" >CONTRIBUTING.md[1@2
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ git_test]$ git add .
+fatal: Not a git repository (or any of the parent directories): .git
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ git_test]$ ls -lrt
+total 104316
+-rw-r--r-- 1 root  root  106801613 May  2 17:28 [0m[01;31mTypora-linux-x64.tar.gz[0m
+drwxrwxr-x 3 zehu1 zehu1      4096 May  2 19:08 [01;34msheepvardb[0m
+drwxrwxr-x 3 zehu1 zehu1      4096 Jul 11 16:55 [01;34mmaize-snp[0m
+drwxrwxr-x 6 zehu1 zehu1      4096 Jul 11 21:38 [01;34mtry[0m
+-rw-rw-r-- 1 zehu1 zehu1         5 Jul 11 21:41 CONTRIBUTING.md
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ git_test]$ mv c[KCONTRIBUTING.md try/
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ git_test]$ cd try/
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test/try(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ try]$ ls -lrt
+total 16
+drwxrwxr-x 2 zehu1 zehu1 4096 Jul 11 21:14 [0m[01;34mresult[0m
+drwxrwxr-x 2 zehu1 zehu1 4096 Jul 11 21:17 [01;34mdata[0m
+drwxrwxr-x 2 zehu1 zehu1 4096 Jul 11 21:26 [01;34mscript[0m
+-rw-rw-r-- 1 zehu1 zehu1    0 Jul 11 21:38 typescript
+-rw-rw-r-- 1 zehu1 zehu1    5 Jul 11 21:41 CONTRIBUTING.md
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test/try(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ try]$ git add .
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test/try(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ try]$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   CONTRIBUTING.md
+#	new file:   typescript
+#
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test/try(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ try]$ git reset HEAT[KD CONTRIBUTING.md 
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test/try(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ try]$ git sutat[K[K[K[Katus[K[K[K[Ktatus
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   typescript
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	CONTRIBUTING.md
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test/try(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ try]$ ls -lrt
+total 16
+drwxrwxr-x 2 zehu1 zehu1 4096 Jul 11 21:14 [0m[01;34mresult[0m
+drwxrwxr-x 2 zehu1 zehu1 4096 Jul 11 21:17 [01;34mdata[0m
+drwxrwxr-x 2 zehu1 zehu1 4096 Jul 11 21:26 [01;34mscript[0m
+-rw-rw-r-- 1 zehu1 zehu1    0 Jul 11 21:38 typescript
+-rw-rw-r-- 1 zehu1 zehu1    5 Jul 11 21:41 CONTRIBUTING.md
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test/try(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ try]$ cat CONTRIBUTING.md 
+ddd2
+]0;zehu1@iZ2ze0pfoqwu709duo8l2sZ:~/git_test/try(base) [zehu1@iZ2ze0pfoqwu709duo8l2sZ try]$ git commit -c ''[C[K[K[K[K[K[K[K[K[K[K[K[Kadd *
+The following paths are ignored by one of your .gitignore files:
+data
+Use -f if you really want to add them.
+fatal: no files added
+]0;zehu1@iZ2ze0pfoqwu709duo8
